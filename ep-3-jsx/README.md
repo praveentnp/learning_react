@@ -11,6 +11,31 @@ Currently, two official plugins are available:
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
+1.  npm create vite@latest
+
+    > npx
+    > create-vite
+
+        │
+        ◇  Project name:
+        │  ep-3-jsx
+        │
+        ◇  Select a framework:
+        │  React
+        │
+        ◇  Select a variant:
+        │  JavaScript
+        │
+        ◇  Scaffolding project in C:\ep-3-jsx...
+        │
+        └  Done. Now run:
+
+2.  cd ep-3-jsx
+3.  npm install
+4.  npm run dev
+
+---
+
 1.  funtion App() - returns only one <div>, whichever last one. So, all data should keep inside single DIV
     Correct :
     function App() {
