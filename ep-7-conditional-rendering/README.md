@@ -5,3 +5,5 @@ Coverd in this episode
 3. ternary operator
 4. if condition
 5. switch condiation
+
+npm install styled-components
